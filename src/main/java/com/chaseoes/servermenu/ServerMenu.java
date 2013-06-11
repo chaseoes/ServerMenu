@@ -10,6 +10,9 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.google.common.io.ByteArrayDataOutput;
+import com.google.common.io.ByteStreams;
+
 public class ServerMenu extends JavaPlugin implements Listener {
 	
 	IconMenu menu;
@@ -17,7 +20,7 @@ public class ServerMenu extends JavaPlugin implements Listener {
 	public void onEnable() {
 		saveDefaultConfig();
 		getServer().getPluginManager().registerEvents(this, this);
-		getServer().getMessenger().registerOutgoingPluginChannel(this, "RubberBand");
+		getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
 		menu = new IconMenu(ChatColor.translateAlternateColorCodes('&', getConfig().getString("title")), roundUp(getConfig().getConfigurationSection("servers").getKeys(false).size()), new IconMenu.OptionClickEventHandler() {
             @Override
             public void onOptionClick(IconMenu.OptionClickEvent event) {
@@ -45,7 +48,10 @@ public class ServerMenu extends JavaPlugin implements Listener {
 	}
 	
 	private void warpToServer(Player player, String server) {
-		player.sendPluginMessage(this, "RubberBand", (server).getBytes());
+	    ByteArrayDataOutput out = ByteStreams.newDataOutput();
+	    out.writeUTF("Connect");
+	    out.writeUTF(server);
+	    player.sendPluginMessage(this, "BungeeCord", out.toByteArray());
 	}
 	
 	private String translate(String s) {
