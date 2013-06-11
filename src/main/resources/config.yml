@@ -1,0 +1,48 @@
+title: 'Choose a server!'
+item: 'SLIMEBALL'
+servers:
+  '1':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '2':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '3':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '4':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '5':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '6':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '7':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '8':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'
+  '9':
+    server: hub
+    name: 'Hub'
+    item: 'SLIMEBALL'
+    description: 'The hub server!'

@@ -1,22 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.chaseoes</groupId>
-    <artifactId>_PluginTemplate</artifactId>
+    <groupId>com.chaseoes</groupId>
+    <artifactId>ServerMenu</artifactId>
     <version>1.0</version>
-    <name>PluginTemplate</name>
+    <name>ServerMenu</name>
     <url>https://github.com/chaseoes/_PluginTemplate</url>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upload.dbo.category>server-mods</upload.dbo.category>
-        <upload.dbo.slug>_Plugin-Template</upload.dbo.slug>
+        <upload.dbo.slug>server-menu</upload.dbo.slug>
     </properties>
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/chaseoes/_PluginTemplate/issues</url>
+        <url>https://github.com/chaseoes/ServerMenu/issues</url>
     </issueManagement>
     <build>
-        <finalName>_PluginTemplate</finalName>
+        <finalName>ServerMenu</finalName>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <resources>
             <resource>
