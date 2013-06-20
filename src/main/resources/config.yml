@@ -1,48 +1,41 @@
-title: 'Choose a server!'
-item: 'SLIMEBALL'
+title: Click an item to select a server
+item: WATCH
+item-name: '&cTeleporter'
+books:
+- rules.txt
 servers:
-  '1':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
   '2':
     server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    name: '&lHub'
+    item: SLIME_BALL
+    description: Server Lobby!
   '3':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: sg
+    name: '&l&6Survival Games'
+    item: DIAMOND_SWORD
+    description: Play &6Survival Games!
   '4':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: creative
+    name: '&l&aCreative'
+    item: IRON_PICKAXE
+    description: Build on &aCreative!
   '5':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: spleef
+    name: '&l&5Spleef'
+    item: IRON_SPADE
+    description: Play classic &5Spleef!
   '6':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: tf2
+    name: '&l&eTF2'
+    item: REDSTONE_LAMP_ON
+    description: Play MC &eTeam Fortress 2!
   '7':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: deathswap
+    name: '&l&4DeathSwap'
+    item: EYE_OF_ENDER
+    description: '&cUnder Construction!'
   '8':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
-  '9':
-    server: hub
-    name: 'Hub'
-    item: 'SLIMEBALL'
-    description: 'The hub server!'
+    server: skyblock
+    name: '&l&3Skyblock'
+    item: GRASS
+    description: '&cUnder Construction!'
